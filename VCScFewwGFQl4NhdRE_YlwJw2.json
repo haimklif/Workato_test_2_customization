@@ -1,0 +1,249 @@
+{
+    "id": "VCScFewwGFQl4NhdRE_YlwJw2",
+    "defaultPageOptions": [
+        {
+            "id": "cs_overview",
+            "name": "Overview"
+        },
+        {
+            "id": "cs_vm_list",
+            "name": "VM List"
+        },
+        {
+            "id": "l1ejqJM4OJ",
+            "name": "CentOS 8 Desktop"
+        }
+    ],
+    "advancedConfiguration": true,
+    "allowAdvancedCustomization": true,
+    "forceAdvancedCustomization": false,
+    "tabs": [
+        {
+            "markupTemplate": "<div class=\"cs-viewer-page\">\n    <div class=\"cs-viewer-page-content\">\n      <div class=\"cs-viewer-page-content-left\">\n        <div class=\"cs-viewer-page-main-title\">\n        {{Name}}\n        </div>\n        <div class=\"cs-viewer-page-description\">\n        {{Description}}\n        </div>\n        <cs-viewer-start-button></cs-viewer-start-button>\n      </div>\t  \n      <div class=\"cs-viewer-page-content-right\">        \n      </div>\n    </div>\n  </div>\n",
+            "type": 223,
+            "order": 0,
+            "name": "Overview",
+            "visible": true,
+            "location": 0,
+            "lastUpdateTime": "Mon, 01 Jan 1753 00:00:00 GMT",
+            "id": "CT1hVewJ67GBR0NIc0TFy-Cg2"
+        },
+        {
+            "type": 232,
+            "order": 0,
+            "name": "Guided Journey",
+            "visible": true,
+            "location": 1,
+            "lastUpdateTime": "Mon, 01 Jan 1753 00:00:00 GMT",
+            "id": "CTUCVVgsXCVQ7unIRt5zRBwA2"
+        },
+        {
+            "type": 229,
+            "showCredentials": true,
+            "order": 1,
+            "name": "VM List",
+            "visible": true,
+            "location": 0,
+            "lastUpdateTime": "Mon, 01 Jan 1753 00:00:00 GMT",
+            "id": "CTfmkl95LTxZnRIYd9hx4YeQ2"
+        },
+        {
+            "type": 224,
+            "crossGroupIdentity": "l1ejqJM4OJ",
+            "rdp": 0,
+            "console": 0,
+            "vnc": 0,
+            "rdp10": 2,
+            "ssh": 1,
+            "showCredentials": true,
+            "defaultRdpSoundConfig": "Disabled",
+            "defaultRdpColorDepth": null,
+            "showWindowsButton": false,
+            "showSendCtrlAltDelete": true,
+            "showSendCtrlW": true,
+            "showDownloadRdpFile": false,
+            "showConnectionSideBarSection": true,
+            "startInFullScreen": false,
+            "hideFromVmList": false,
+            "order": 2,
+            "name": "CentOS 8 Desktop",
+            "visible": true,
+            "location": 0,
+            "lastUpdateTime": "Mon, 01 Jan 1753 00:00:00 GMT",
+            "id": "CTwXD7TCv49nDoEgggzA9o8w2"
+        },
+        {
+            "type": 222,
+            "iframeUrl": "https://",
+            "allowPreview": false,
+            "openInNewTab": false,
+            "useMachineAddress": false,
+            "machineAddress": null,
+            "order": 3,
+            "name": "External URL",
+            "visible": false,
+            "location": 0,
+            "lastUpdateTime": "Mon, 01 Jan 1753 00:00:00 GMT",
+            "id": "CT4CHDohAg7szgudiZQeLhCQ2"
+        }
+    ],
+    "defaultTabsContent": [],
+    "defaultPageToken": "",
+    "defaultRdpSoundConfig": "Disabled",
+    "advancedGeneralSettings": {
+        "defaultTabId": "CT1hVewJ67GBR0NIc0TFy-Cg2",
+        "slackSettings": {
+            "isEnabled": null,
+            "channelId": null
+        }
+    },
+    "slackSettingsContent": null,
+    "brandingData": null,
+    "endUserLogin": {
+        "title": "Accelerate e2e sales experience, Accelerate e2e instructor console progress test experience",
+        "subtitle": "Enter your email and passphrase",
+        "enableTitle": true,
+        "enableSubtitle": false,
+        "enableBanner": true,
+        "bannerPathHash": "",
+        "bannerFilename": ""
+    },
+    "fullscreenLandingState": null,
+    "guidedJourney": {
+        "chapters": [
+            {
+                "name": "Chapter 1x",
+                "chapterOrder": 0,
+                "sections": [
+                    {
+                        "order": 0,
+                        "title": "Section 1",
+                        "estimatedTimeMinutes": 10,
+                        "lastUpdateTime": "Mon, 19 May 2025 08:54:26 GMT",
+                        "checkpoint": {
+                            "imgPath": "f7ca5a60-9eb0-4a49-ade9-cdf7be4bff42.png",
+                            "areas": [
+                                {
+                                    "topLeft": {
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "bottomRight": {
+                                        "x": 240,
+                                        "y": 18
+                                    }
+                                }
+                            ],
+                            "hint": null,
+                            "guidedJourneySectionId": "JSbUwPiN8RJY4hIhJp10s3tg2",
+                            "lastUpdateTime": "Mon, 01 Jan 1753 00:00:00 GMT",
+                            "learnRequestId": "LRxozVgvLjyre9ATnUI1Mx2Q2",
+                            "allowFailedCheck": null,
+                            "enableHint": false,
+                            "id": "CPtAA1RdDF0ig10UJN9qK-nQ2"
+                        },
+                        "checkpointId": "CPtAA1RdDF0ig10UJN9qK-nQ2",
+                        "checkpointHint": null,
+                        "enableCheckpointHint": false,
+                        "allowCheckpointFailedCheck": null,
+                        "checkpointImgUrl": null,
+                        "correlationId": 9981694552,
+                        "id": "JSbUwPiN8RJY4hIhJp10s3tg2"
+                    },
+                    {
+                        "order": 1,
+                        "title": "Section 2",
+                        "estimatedTimeMinutes": 1,
+                        "lastUpdateTime": "Mon, 01 Jan 1753 00:00:00 GMT",
+                        "checkpoint": null,
+                        "checkpointId": null,
+                        "checkpointHint": null,
+                        "enableCheckpointHint": null,
+                        "allowCheckpointFailedCheck": null,
+                        "checkpointImgUrl": null,
+                        "correlationId": 6136997921,
+                        "id": "JS7WLGUVDhaExRpTpMzaJLHw2"
+                    },
+                    {
+                        "order": 2,
+                        "title": "Section 2",
+                        "estimatedTimeMinutes": 1,
+                        "lastUpdateTime": "Mon, 01 Jan 1753 00:00:00 GMT",
+                        "checkpoint": null,
+                        "checkpointId": null,
+                        "checkpointHint": null,
+                        "enableCheckpointHint": null,
+                        "allowCheckpointFailedCheck": null,
+                        "checkpointImgUrl": null,
+                        "correlationId": 1115963625,
+                        "id": "JS-xbjzVjmczzVE1qIeJisrQ2"
+                    },
+                    {
+                        "order": 3,
+                        "title": "Section 1.4",
+                        "estimatedTimeMinutes": 10,
+                        "lastUpdateTime": "Thu, 13 Feb 2025 08:16:47 GMT",
+                        "checkpoint": {
+                            "imgPath": "15dbaec3-9830-41e3-89ec-649a73cdd113.png",
+                            "areas": [
+                                {
+                                    "topLeft": {
+                                        "x": 178,
+                                        "y": 22
+                                    },
+                                    "bottomRight": {
+                                        "x": 444,
+                                        "y": 51
+                                    }
+                                }
+                            ],
+                            "hint": "test hint",
+                            "guidedJourneySectionId": "JS8LZsKzkO6dIQPxQFXKUbIQ2",
+                            "lastUpdateTime": "Mon, 01 Jan 1753 00:00:00 GMT",
+                            "learnRequestId": "LR3nzxfTZco7S3qRR9F_lTfQ2",
+                            "allowFailedCheck": true,
+                            "enableHint": true,
+                            "id": "CP_zUBLXXM8DHwN7I8PNEabA2"
+                        },
+                        "checkpointId": "CP_zUBLXXM8DHwN7I8PNEabA2",
+                        "checkpointHint": "test hint",
+                        "enableCheckpointHint": true,
+                        "allowCheckpointFailedCheck": true,
+                        "checkpointImgUrl": null,
+                        "correlationId": 3334995072296534997,
+                        "id": "JS8LZsKzkO6dIQPxQFXKUbIQ2"
+                    }
+                ],
+                "lastUpdateTime": "Thu, 13 Feb 2025 08:18:32 GMT",
+                "correlationId": 1955367691138071223,
+                "id": "CHsByxka2QMn1Qd0KgGLAPdw2"
+            },
+            {
+                "name": "Chapter 2",
+                "chapterOrder": 1,
+                "sections": [
+                    {
+                        "order": 0,
+                        "title": "Section 2.1",
+                        "estimatedTimeMinutes": 10,
+                        "lastUpdateTime": "Mon, 01 Jan 1753 00:00:00 GMT",
+                        "checkpoint": null,
+                        "checkpointId": null,
+                        "checkpointHint": null,
+                        "enableCheckpointHint": null,
+                        "allowCheckpointFailedCheck": null,
+                        "checkpointImgUrl": null,
+                        "correlationId": 1735438110353101227,
+                        "id": "JScsvvocvi5MQodJNGyiqOXg2"
+                    }
+                ],
+                "lastUpdateTime": "Mon, 01 Jan 1753 00:00:00 GMT",
+                "correlationId": 2306300514347535374,
+                "id": "CHS4bZ1L9LYDdUcAx3er-F9Q2"
+            }
+        ],
+        "checkpointCheckTimeoutInSeconds": 0,
+        "checkpointCheckPollingInSeconds": 0,
+        "id": "CTUCVVgsXCVQ7unIRt5zRBwA2"
+    }
+}
